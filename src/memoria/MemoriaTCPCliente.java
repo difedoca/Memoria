@@ -45,7 +45,7 @@ public class MemoriaTCPCliente implements MemoriaInterface {
             System.out.println("Respuesta: " + msg);
 
         } catch (IOException e) {
-            System.out.println("Error de lectura escritura");
+            System.out.println("Error de lectura-escritura");
         }
         return msg;
     }
